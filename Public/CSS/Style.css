@@ -2,9 +2,12 @@
 
 * {
     font-family: 'Raleway', Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+    --colorClear: #DEEBFF;
+    --colorBleu: #0065FC;
+    --colorGrey: #F2F2F2;
 }
 
 body {
-    background-color: blueviolet;
-    color: white;
+    background-color: aqua;
+    color: var(--colorBleu);
 }
